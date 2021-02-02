@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.App {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.title, .calender-title{
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  margin-left: 55px;
+}
+
+.search { 
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 15px;
+  font-family: 'Raleway', sans-serif;
+} 
+
+.search-form{
+  position: relative;
+  float: right;
+  margin-left: 260px;
+  margin-top: 35px;
+}
+
+.input-field{ 
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  height: 30px;
+  width: 250px;
+  padding-left:25px;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#submit-search{
+  background: rgb(91, 200, 236);
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 7px;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fa-search{
+  margin-left: 5px;
+}
+ 
+.line-break{
+  width: 90%; 
+  margin-top: 20px;
+  height: 0.5px;
+  background-color: rgb(5, 96, 126);
+}
+
+.event-line-break{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 0.5px;
+  background-color:rgb(5, 96, 126);
+}
+
+.navbar-brand, .nav-link, .nav-item, .card, input[type="text"], #all-info{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand{
+  font-weight: 800;
+}
+
+.navbar-light{
+  background-color: rgb(91, 200, 236);
+}
+
+.api-card{
+  height: 400px;
+}
+
+.api-img{
+  height: 175px;
+}
+
+.container{
+  margin-bottom: 100px;
+}
+
+.api-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.addCal-btn{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 60%;
+  margin: 0 auto;
+  color: rgb(5, 96, 126);
+}
+
+.event-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.column {
+  flex: 50%;
+  text-align: center;
+}
+
+.api-event-img{
+  height: 400px;
+  width: 500px;
+  padding: 10px;
+  border: 4px solid rgb(198, 228, 234);
+  border-radius: 25px;
+}
+
+.event-header{
+  font-weight: bold;
+  font-size: 25px;
+  color:rgb(44,90,101);
+  margin-bottom: 50px;
+}
+
+.event-info{
+  color:rgb(44,90,101);
+  font-weight: 500;
+}
+
+.btn-info{
+  margin-top: 50px;
+  width: 300px;
+}
+
+.ticket{
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+.cal-card{
+  height: 225px;
+  text-align: center;
+  position: relative
+}
+
+.btn-cal, .link-btn{
+  background-color: rgb(91, 200, 236);
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  color: white;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+a.link:hover, .btn-cal:hover{ 
+  text-decoration: none; 
+  color: blue;
+} 
+
+a.link{
+  color: white;
+}
+
+.buttons{
+  position: absolute;
+  bottom: 20px;
+  right: 5px;
+}
+
+.edit-comment{
+  margin-left: 115px;
+  width: 500px;
+  height: 150px;
+}
+
+#update{
+  position: absolute;
+  bottom: 15px;
+  left: 100px;
+}
+
+#delete{
+  position: absolute;
+  bottom: 5px;
+  left: 135px;
+  width: 134px;
+}
